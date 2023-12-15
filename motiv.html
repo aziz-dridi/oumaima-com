@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Message for You</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #da0505;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #e44d26;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        #heart {
+            font-size: 50px;
+            color: #e44d26;
+            animation: heartbeat 1.5s infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Hey, Beautiful!</h1>
+        <p>After a long day of hard work, just wanted to remind you...</p>
+        <p><span id="heart">❤</span> You are amazing and I love you! <span id="heart">❤</span></p>
+    </div>
+
+    <script>
+        // You can add more animations or interactions using JavaScript if desired.
+    </script>
+</body>
+</html>
